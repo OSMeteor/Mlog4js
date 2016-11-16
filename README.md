@@ -9,8 +9,8 @@ npm install mlog4js
 ```
 
 ```
-var PWlogo4js =require("PWlogo4js").logger
-var log =PWlogo4js("xxModuleName");
+var mlog4js =require("mlog4js").logger
+var log =mlog4js("xxModuleName");
 log.console.debug('sssssss');
 log.console.warn('sssssss');
 log.console.error('sssssss');
@@ -26,8 +26,8 @@ log.fatal('loginfatal','fatal context');
 
 ```
 project RootPath
-  rootpath/logs/yyyymm/dd/modules/debug[error][fatal][info][trace][warn].log
-  eg rootproject/201511/20/logger/debug.log
+  rootpath/logs/yyyymm/dd/xxModuleName/debug[error][fatal][info][trace][warn].log
+  eg rootproject/201511/20/xxModuleName/debug.log
   
 ```
 ### Update log
