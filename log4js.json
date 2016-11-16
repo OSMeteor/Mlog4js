@@ -1,0 +1,12 @@
+{
+    "appenders": [
+        {"type": "console", "category": "console"},
+        { "maxLogSize": 1024, "backups":4,"type": "dateFile","filename": "logs/", "pattern": "debug.log","absolute": true,"alwaysIncludePattern": true,"category": "logDebug"} ,
+        { "maxLogSize": 1024, "backups":4,"type": "dateFile","filename": "logs/", "pattern": "info.log","absolute": true,"alwaysIncludePattern": true,"category": "logInfo"},
+        { "maxLogSize": 1024, "backups":4,"type": "dateFile","filename": "logs/", "pattern": "warn.log","absolute": true,"alwaysIncludePattern": true,"category": "logWarn"},
+        { "maxLogSize": 1024, "backups":4, "type": "dateFile","filename": "logs/", "pattern": "error.log","absolute": true,"alwaysIncludePattern": true,"category": "logError"},
+        { "maxLogSize": 1024, "backups":4, "type": "dateFile","filename": "logs/", "pattern": "trace.log","absolute": true,"alwaysIncludePattern": true,"category": "logTrace"},
+        { "maxLogSize": 1024, "backups":4, "type": "dateFile","filename": "logs/", "pattern": "fatal.log","absolute": true,"alwaysIncludePattern": true,"category": "logFatal"}
+        ],
+    "replaceConsole": true
+}
